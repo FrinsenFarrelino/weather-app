@@ -9,15 +9,15 @@
 </head>
 <body>
 
-  <div class="w-full min-h-[97vh]">
+  <div class="w-full min-h-[94vh] lg:min-h-[94vh] xl:min-h-[96vh] 2xl:min-h-[97.3vh]">
     @yield('container')
   </div>
 
 
-  <footer class="text-center lg:text-left bg-gray-100 text-gray-600">
-    <div class="text-center p-6 bg-gray-200">
+  <footer class="text-center lg:text-left bg-dark-blue text-white">
+    <div class="text-center p-6 bg-dark-blue">
       <span>© 2022 Copyright:</span>
-      <a class="text-gray-600 font-semibold" href="https://github.com/FrinsenFarrelino">Agustinus Frinsen Farrelino Yoses</a>
+      <a class="text-white font-semibold" href="https://github.com/FrinsenFarrelino">Agustinus Frinsen Farrelino Yoses</a>
     </div>
   </footer>
 
