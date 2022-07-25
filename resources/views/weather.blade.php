@@ -94,7 +94,7 @@
     <div class="h-full pt-4 pb-2">
       <p class="font-bold text-center mb-2">Today Status</p>
       <div class="flex flex-wrap justify-center items text-center">
-        <div class="bg-white border-[5px] border-green-200 w-36 h-36 md:w-[135px] md:h-[135px] lg:w-36 lg:h-36 mx-3 my-3 lg:mx-7 rounded-2xl flex py-4 px-4 md:py-3 md:px-3 lg:py-4 lg:px-4">
+        <div class="bg-white border-[3px] border-green-500 w-36 h-36 md:w-[135px] md:h-[135px] lg:w-36 lg:h-36 mx-3 my-3 lg:mx-7 rounded-2xl flex py-4 px-4 md:py-3 md:px-3 lg:py-4 lg:px-4">
           <div class="text-center w-full flex flex-col justify-between">
             <div>
               <p class="font-semibold">Humidity</p>
@@ -108,7 +108,7 @@
             </div>
           </div>
         </div>
-        <div class="bg-white border-[5px] border-violet-300 w-36 h-36 md:w-[135px] md:h-[135px] lg:w-36 lg:h-36 mx-3 my-3 lg:mx-7 rounded-2xl flex py-4 px-4 md:py-3 md:px-3 lg:py-4 lg:px-4">
+        <div class="bg-white border-[3px] border-violet-500 w-36 h-36 md:w-[135px] md:h-[135px] lg:w-36 lg:h-36 mx-3 my-3 lg:mx-7 rounded-2xl flex py-4 px-4 md:py-3 md:px-3 lg:py-4 lg:px-4">
           <div class="text-center w-full flex flex-col justify-between">
             <div>
               <p class="font-semibold">UV Index</p>
@@ -121,7 +121,7 @@
             </div>
           </div>
         </div>
-        <div class="bg-white border-[5px] border-cyan-100 w-36 h-36 md:w-[135px] md:h-[135px] lg:w-36 lg:h-36 mx-3 my-3 lg:mx-7 rounded-2xl flex py-4 px-4 md:py-3 md:px-3 lg:py-4 lg:px-4">
+        <div class="bg-white border-[3px] border-cyan-400 w-36 h-36 md:w-[135px] md:h-[135px] lg:w-36 lg:h-36 mx-3 my-3 lg:mx-7 rounded-2xl flex py-4 px-4 md:py-3 md:px-3 lg:py-4 lg:px-4">
           <div class="text-center w-full flex flex-col justify-between">
             <div>
               <p class="font-semibold">Wind Status</p>
@@ -136,7 +136,7 @@
             </div>
           </div>
         </div>
-        <div class="bg-white border-[5px] border-yellow-200 w-36 h-36 md:w-[135px] md:h-[135px] lg:w-36 lg:h-36 mx-3 my-3 lg:mx-7 rounded-2xl flex py-4 px-4 md:py-3 md:px-3 lg:py-4 lg:px-4">
+        <div class="bg-white border-[3px] border-yellow-200 w-36 h-36 md:w-[135px] md:h-[135px] lg:w-36 lg:h-36 mx-3 my-3 lg:mx-7 rounded-2xl flex py-4 px-4 md:py-3 md:px-3 lg:py-4 lg:px-4">
           <div class="text-center w-full flex flex-col justify-between">
             <div>
               <p class="font-semibold">Feels Like</p>
@@ -147,7 +147,7 @@
             </div>
           </div>
         </div>
-        <div class="bg-white border-[5px] border-slate-200 w-36 h-36 md:w-[135px] md:h-[135px] lg:w-36 lg:h-36 mx-3 my-3 lg:mx-7 rounded-2xl flex py-4 px-4 md:py-3 md:px-3 lg:py-4 lg:px-4">
+        <div class="bg-white border-[3px] border-slate-200 w-36 h-36 md:w-[135px] md:h-[135px] lg:w-36 lg:h-36 mx-3 my-3 lg:mx-7 rounded-2xl flex py-4 px-4 md:py-3 md:px-3 lg:py-4 lg:px-4">
           <div class="text-center w-full flex flex-col justify-between">
             <div>
               <p class="font-semibold">Visibility</p>
@@ -161,7 +161,7 @@
             </div>
           </div>
         </div>
-        <div class="bg-white border-[5px] border-orange-200 w-36 h-36 md:w-[135px] md:h-[135px] lg:w-36 lg:h-36 mx-3 my-3 lg:mx-7 rounded-2xl flex py-4 px-4 md:py-3 md:px-3 lg:py-4 lg:px-4">
+        <div class="bg-white border-[3px] border-orange-500 w-36 h-36 md:w-[135px] md:h-[135px] lg:w-36 lg:h-36 mx-3 my-3 lg:mx-7 rounded-2xl flex py-4 px-4 md:py-3 md:px-3 lg:py-4 lg:px-4">
           <div class="text-center w-full flex flex-col justify-between">
             <div>
               <p class="font-semibold">Sunrise & Sunset</p>
