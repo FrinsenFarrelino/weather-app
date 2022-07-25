@@ -77,7 +77,7 @@ class WeatherController extends Controller
             }
         }
         $y = 0;
-        while (count($dayForecast) < 24) {
+        while (count($dayForecast) < 23) {
             $dayForecast[$x] = $newData[1]->forecast->forecastday[0]->hour[$y];
             $x++;
             $y++;
