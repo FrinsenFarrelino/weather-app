@@ -78,7 +78,7 @@
     </div>
   
     <div class="flex justify-center text-black font-semibold">
-      <div class="mt-8 w-72 h-24 px-3 py-3 bg-white rounded-2xl flex flex-col justify-between">
+      <div class="mt-8 w-72 h-24 px-3 py-3 bg-white rounded-2xl flex flex-col justify-center">
         <div class="flex justify-center">
           <p>{{ $weatherData[0]->location->name }}</p>
         </div>
