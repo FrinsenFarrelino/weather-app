@@ -83,7 +83,8 @@
           <p>{{ $weatherData[0]->location->name }}</p>
         </div>
         <div class="flex justify-center text-center">
-          <p>{{ $weatherData[0]->location->region }}, {{ $weatherData[0]->location->country }}</p>
+          <p>{{ $weatherData[0]->location->region }}, </p>
+          <p>{{ $weatherData[0]->location->country }}</p>
         </div>
       </div>
     </div>
@@ -184,7 +185,7 @@
       <p class="font-bold text-center mb-2">24-Hour Forecast</p>
       <div class="flex overflow-x-auto scrolling-touch">
         @for ($i = 0; $i < count($dayForecast); $i++)
-          <div class="flex-none w-20 h-32 bg-slate-300 rounded-lg mr-3 my-3 px-1 py-1">
+          <div class="flex-none w-20 h-40 bg-slate-300 rounded-lg mr-3 my-3 px-1 py-1">
             <div class="w-full h-full text-center flex flex-col justify-between">
                 <p class="text-sm -mb-1">{{ date('h:i A', strtotime($dayForecast[$i]->time)) }}</p>
                 <img src="{{ $dayForecast[$i]->condition->icon }}" width="55" alt="" class="-mb-1 mx-auto">
