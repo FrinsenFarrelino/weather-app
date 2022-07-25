@@ -203,19 +203,19 @@
           <div class="flex-none w-20 h-44 bg-slate-200 rounded-lg mr-3 my-3 px-1 py-1">
             <div class="w-full h-full text-center flex flex-col justify-between">
               @if ($i == 0)
-                <p class="text-xs -mb-1">Today</p>
+                <p class="text-sm -mb-1">Today</p>
                 <img src="{{ $weatherData[$i]->forecast->forecastday[0]->day->condition->icon }}" width="55" alt="" class="-mb-1 mx-auto">
                 <p class="text-xs">{{ $weatherData[$i]->forecast->forecastday[0]->day->condition->text }}</p>
                 <p class="font-semibold">{{ intval($weatherData[$i]->forecast->forecastday[0]->day->maxtemp_c) }} / {{ intval($weatherData[$i]->forecast->forecastday[0]->day->mintemp_c) }}°C</p>
                 <p>{{ intval($weatherData[$i]->forecast->forecastday[0]->day->avghumidity) }}%</p>
               @elseif ($i == 1)
-                <p class="text-xs -mb-1">Tomorrow</p>
+                <p class="text-sm -mb-1">Tomorrow</p>
                 <img src="{{ $weatherData[$i]->forecast->forecastday[0]->day->condition->icon }}" width="55" alt="" class="-mb-1 mx-auto">
                 <p class="text-xs">{{ $weatherData[$i]->forecast->forecastday[0]->day->condition->text }}</p>
                 <p class="font-semibold">{{ intval($weatherData[$i]->forecast->forecastday[0]->day->maxtemp_c) }} / {{ intval($weatherData[$i]->forecast->forecastday[0]->day->mintemp_c) }}°C</p>
                 <p>{{ intval($weatherData[$i]->forecast->forecastday[0]->day->avghumidity) }}%</p>
               @else 
-                <p class="text-xs -mb-1">{{ date('F d', strtotime($weatherData[$i]->forecast->forecastday[0]->date)) }}</p>
+                <p class="text-sm -mb-1">{{ date('M d', strtotime($weatherData[$i]->forecast->forecastday[0]->date)) }}</p>
                 <img src="{{ $weatherData[$i]->forecast->forecastday[0]->day->condition->icon }}" width="55" alt="" class="-mb-1 mx-auto">
                 <p class="text-xs">{{ $weatherData[$i]->forecast->forecastday[0]->day->condition->text }}</p>
                 <p class="font-semibold">{{ intval($weatherData[$i]->forecast->forecastday[0]->day->maxtemp_c) }} / {{ intval($weatherData[$i]->forecast->forecastday[0]->day->mintemp_c) }}°C</p>
