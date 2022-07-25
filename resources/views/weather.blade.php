@@ -83,8 +83,7 @@
           <p>{{ $weatherData[0]->location->name }}</p>
         </div>
         <div class="flex justify-center text-center">
-          <p>{{ $weatherData[0]->location->region }}, </p>
-          <p>{{ $weatherData[0]->location->country }}</p>
+          <p>{{ $weatherData[0]->location->region }}, {{ $weatherData[0]->location->country }}</p>
         </div>
       </div>
     </div>
