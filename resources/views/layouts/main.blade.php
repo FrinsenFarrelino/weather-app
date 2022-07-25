@@ -17,7 +17,7 @@
   <footer class="text-center lg:text-left bg-dark-blue text-white">
     <div class="text-center p-6 bg-dark-blue">
       <span>© 2022 Copyright:</span>
-      <a class="text-white font-semibold" href="https://github.com/FrinsenFarrelino">Agustinus Frinsen Farrelino Yoses</a>
+      <a class="text-white font-semibold" href="https://github.com/FrinsenFarrelino/weather-app">Agustinus Frinsen Farrelino Yoses</a>
     </div>
   </footer>
 
