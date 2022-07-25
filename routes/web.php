@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\WeatherController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +18,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/weather', function () {
-    return view('weather');
-});
+Route::get('/weather', [WeatherController::class, 'getData']);

@@ -16,17 +16,17 @@
 
 {{-- Search section --}}
 <div class="mt-10 md:mt-12">
-  <p class="text-center font-semibold text-lg md:text-xl lg:text-2xl">Search City</p>
+  <p class="text-center font-semibold text-lg md:text-xl lg:text-2xl">Search City or Regency</p>
 </div>
 
-<form>
+<form action="/weather" method="GET">
   <div class="mt-5 flex justify-center">
     <label class="relative block sm:w-96">
       <input
       class="w-full text-md bg-white placeholder:font-italitc border border-slate-300 rounded-full py-2 pl-4 pr-12 focus:outline-none"
-      placeholder="Search here" type="text" />
+      placeholder="Search here" type="text" name="city"/>
       <span class="absolute inset-y-0 right-0 flex items-center pr-3">
-        <button>
+        <button type="submit">
           <svg class="h-5 w-5 fill-black" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
               height="30" viewBox="0 0 30 30">
               <path
@@ -39,6 +39,9 @@
   </div>
 </form>
 
+<div>
+  <p class="text-center text-sm text-slate-400">(e.g : Surabaya, Indonesia)</p>
+</div>
 {{-- End of search section --}}
 
 {{-- We serve you data of section --}}
