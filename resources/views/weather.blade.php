@@ -121,7 +121,7 @@
             </div>
           </div>
         </div>
-        <div class="bg-cyan-200 w-36 h-36 md:w-[135px] md:h-[135px] lg:w-36 lg:h-36 mx-3 my-3 lg:mx-7 rounded-2xl flex py-4 px-4 md:py-3 md:px-3 lg:py-4 lg:px-4">
+        <div class="bg-cyan-100 w-36 h-36 md:w-[135px] md:h-[135px] lg:w-36 lg:h-36 mx-3 my-3 lg:mx-7 rounded-2xl flex py-4 px-4 md:py-3 md:px-3 lg:py-4 lg:px-4">
           <div class="text-center w-full flex flex-col justify-between">
             <div>
               <p class="font-semibold">Wind Status</p>
