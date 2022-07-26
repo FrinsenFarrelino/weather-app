@@ -52,7 +52,7 @@
       <div class="flex justify-between">
         <div>
           <p class="text-base font-semibold">Date</p>
-          <p>{{ date('F d, Y', strtotime($weatherData[0]->location->localtime)) }}</p>
+          <p>{{ date('F j, Y', strtotime($weatherData[0]->location->localtime)) }}</p>
         </div>
         <div>
           <p class="text-base font-semibold text-end">Time</p>
@@ -215,7 +215,7 @@
                 <p class="font-semibold">{{ intval($weatherData[$i]->forecast->forecastday[0]->day->maxtemp_c) }} / {{ intval($weatherData[$i]->forecast->forecastday[0]->day->mintemp_c) }}°C</p>
                 <p>{{ intval($weatherData[$i]->forecast->forecastday[0]->day->avghumidity) }}%</p>
               @else 
-                <p class="text-sm -mb-1">{{ date('M d', strtotime($weatherData[$i]->forecast->forecastday[0]->date)) }}</p>
+                <p class="text-sm -mb-1">{{ date('M j', strtotime($weatherData[$i]->forecast->forecastday[0]->date)) }}</p>
                 <img src="{{ $weatherData[$i]->forecast->forecastday[0]->day->condition->icon }}" width="55" alt="" class="-mb-1 mx-auto">
                 <p class="text-xs">{{ $weatherData[$i]->forecast->forecastday[0]->day->condition->text }}</p>
                 <p class="font-semibold">{{ intval($weatherData[$i]->forecast->forecastday[0]->day->maxtemp_c) }} / {{ intval($weatherData[$i]->forecast->forecastday[0]->day->mintemp_c) }}°C</p>
