@@ -71,7 +71,7 @@ class WeatherController extends Controller
 
         $dayForecast = [];
         $x = 0;
-        for ($i = 0; $i < 23; $i++) {
+        for ($i = 0; $i <= 23; $i++) {
             if (date('H', strtotime($newData[0]->location->localtime)) < date('H', strtotime($newData[0]->forecast->forecastday[0]->hour[$i]->time))) {
                 $dayForecast[$x] = $newData[0]->forecast->forecastday[0]->hour[$i];
                 $x++;
